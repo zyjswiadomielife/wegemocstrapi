@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "follows",
+  "info": {
+    "singularName": "follow",
+    "pluralName": "follows",
+    "displayName": "Follow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "target": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    }
+  }
+}

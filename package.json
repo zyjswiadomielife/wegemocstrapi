@@ -1,0 +1,32 @@
+{
+  "name": "wegemocstrapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-documentation": "^4.2.2",
+    "@strapi/plugin-i18n": "4.2.2",
+    "@strapi/plugin-users-permissions": "4.2.2",
+    "@strapi/strapi": "4.2.2",
+    "better-sqlite3": "7.4.6",
+    "strapi-plugin-generate-data": "^1.0.10",
+    "strapi-plugin-slugify": "^2.2.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a2784cc1-7c40-431d-9c8c-088c0bc389d7"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
