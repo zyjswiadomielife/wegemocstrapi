@@ -44,6 +44,12 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "recipes"
+    },
+    "url": {
+      "type": "string"
+    },
+    "html": {
+      "type": "text"
     }
   }
 }
